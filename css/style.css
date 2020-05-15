@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@200&family=Qwigley&display=swap');
+
+
+.headingname h3 {
+    font-family: "Qwigley", sans-serif;
+    font-size: 50px;
+    margin-left: 0px;
+    margin-top: 20px;
+    color: #b4b2b2;
+    font-weight: 100;
+    text-align: left;
+}
+
+ul li {
+    font-family: "Exo", sans-serif;
+    list-style: none;
+    display: inline-block;
+    float: right;
+}
