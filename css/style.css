@@ -4,16 +4,35 @@
 .headingname h3 {
     font-family: "Qwigley", sans-serif;
     font-size: 50px;
-    margin-left: 0px;
-    margin-top: 20px;
+    margin-left: 50px;
     color: #b4b2b2;
     font-weight: 100;
-    text-align: left;
 }
 
-ul li {
-    font-family: "Exo", sans-serif;
+.menuitem {
     list-style: none;
+    font-family: "Exo", sans-serif;
     display: inline-block;
-    float: right;
+    padding: 20px;
+    justify-content: right;
+} 
+
+
+.menuitem a h4 {
+    color:#b4b2b2;
+    float: right!important;
+} 
+   
+.headtitle {
+    font-family: "Exo", sans-serif;
+    color:#b4b2b2;
+    text-align: center;
+    padding-top: 400px;
+    padding-bottom: 400px;
+    background-image: url("../images/backgroundimage.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
+
