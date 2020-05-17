@@ -4,7 +4,7 @@
 .headingname h3 {
     font-family: "Qwigley", sans-serif;
     font-size: 50px;
-    margin-left: 50px;
+    /*margin-left: 50px;*/
     color: #b4b2b2;
     font-weight: 100;
 }
@@ -14,18 +14,16 @@
     font-family: "Exo", sans-serif;
     display: inline-block;
     padding: 20px;
-    justify-content: right;
 } 
 
 .menuitem a h4 {
     color:#b4b2b2;
-    float: right!important;
-} 
+}
 
    
 .headtitle {
     font-family: "Exo", sans-serif;
-    font-weight: 100;
+    font-size: 50px;
     color:#918e8e;
     text-shadow: 2px 2px 4px #000000;
     text-align: center;
