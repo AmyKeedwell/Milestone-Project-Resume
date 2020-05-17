@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@200&family=Qwigley&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 /*----------------------------------Header-----------------------------------*/
 
 .headingname h3 {
@@ -48,6 +52,7 @@
 .aboutheading h3 {
     font-size: 40px;
     padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 .aboutmeimage {
@@ -62,4 +67,27 @@
 
 .abouttext {
    font-family: "Exo", sans-serif; 
+}
+
+/*--------------------------------My Skills--------------------------------*/
+
+.skillsheading {
+    font-family: "Exo", sans-serif;
+    text-align: center;
+    font-size: 70px;
+}
+
+.skillsheading h3 {
+    font-size: 40px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+#myskills {
+    background-color: #e5fcf8;
+}
+
+.skills h4 {
+    font-family: "Exo", sans-serif;
+    text-align: center;
 }
