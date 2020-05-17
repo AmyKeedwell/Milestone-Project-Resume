@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@200&family=Qwigley&display=swap');
 
+/*----------------------------------Header-----------------------------------*/
 
 .headingname h3 {
     font-family: "Qwigley", sans-serif;
@@ -20,7 +21,6 @@
     color:#b4b2b2;
 }
 
-   
 .headtitle {
     font-family: "Exo", sans-serif;
     font-size: 50px;
@@ -35,8 +35,31 @@
     background-size: cover;
 }
 
+/*--------------------------------About Me--------------------------------*/
+
+.aboutme {}
 
 .aboutheading {
     font-family: "Exo", sans-serif;
     text-align: center;
+    font-size: 70px;
+}
+
+.aboutheading h3 {
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.aboutmeimage {
+    background: url("../images/aboutme.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    border: 3px #000000 solid;
+}
+
+.abouttext {
+   font-family: "Exo", sans-serif; 
 }
