@@ -4,6 +4,26 @@ html {
   scroll-behavior: smooth;
 }
 
+.sectionheading {
+    font-family: "Exo", sans-serif;
+    text-align: center;
+    font-size: 70px;
+    color:#918e8e;
+}
+
+.sectionheading h3 {
+    font-size: 40px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+hr {
+    width: 200px;
+    margin-top: 0;
+    color: #918e8e;
+    height: 3px;
+    padding-bottom: 10px;
+}
 /*----------------------------------Header-----------------------------------*/
 
 .headingname h3 {
@@ -40,6 +60,9 @@ html {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
 }
 
 .navbar {
@@ -58,18 +81,6 @@ html {
 
 .aboutme {}
 
-.aboutheading {
-    font-family: "Exo", sans-serif;
-    text-align: center;
-    font-size: 70px;
-    color:#918e8e;
-}
-
-.aboutheading h3 {
-    font-size: 40px;
-    padding-bottom: 10px;
-    padding-top: 30px;
-}
 
 .aboutmeimage {
     background: url("../images/aboutme.jpg");
@@ -86,27 +97,9 @@ html {
    text-align: center;
 }
 
-hr {
-    width: 200px;
-    margin-top: 0;
-    color: #918e8e;
-    height: 3px;
-}
 
 
 /*--------------------------------My Skills--------------------------------*/
-
-.skillsheading {
-    font-family: "Exo", sans-serif;
-    text-align: center;
-    font-size: 70px;
-}
-
-.skillsheading h3 {
-    font-size: 40px;
-    padding-bottom: 10px;
-    padding-top: 30px;
-}
 
 #myskills {
     background-color: #e5fcf8;
@@ -114,5 +107,21 @@ hr {
 
 .skills h4 {
     font-family: "Exo", sans-serif;
+    text-align: center;
+}
+
+/*--------------------------------Portfolio--------------------------------*/
+
+
+
+
+
+/*--------------------------------Contact--------------------------------*/
+
+#contact {
+    background-color: #e5fcf8;
+}
+
+.contactinfo p {
     text-align: center;
 }
