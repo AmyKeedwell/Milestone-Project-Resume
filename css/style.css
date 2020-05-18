@@ -33,10 +33,21 @@ html {
     text-align: center;
     padding-top: 400px;
     padding-bottom: 400px;
+}
+
+.headimage {
     background-image: url("../images/backgroundimage.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.navbar {
+    padding-bottom: 0;
+}
+
+.navbar .navbar-toggler {
+    background-color:#918e8e;
 }
 
 /*--------------------------------About Me--------------------------------*/
