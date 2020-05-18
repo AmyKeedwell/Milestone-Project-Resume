@@ -37,7 +37,7 @@ html {
 
 .headimage {
     background-image: url("../images/backgroundimage.jpeg");
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -50,6 +50,10 @@ html {
     background-color:#918e8e;
 }
 
+.container-fluid {
+    padding: 0;
+}
+
 /*--------------------------------About Me--------------------------------*/
 
 .aboutme {}
@@ -58,17 +62,18 @@ html {
     font-family: "Exo", sans-serif;
     text-align: center;
     font-size: 70px;
+    color:#918e8e;
 }
 
 .aboutheading h3 {
     font-size: 40px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     padding-top: 30px;
 }
 
 .aboutmeimage {
     background: url("../images/aboutme.jpg");
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
@@ -78,7 +83,16 @@ html {
 
 .abouttext {
    font-family: "Exo", sans-serif; 
+   text-align: center;
 }
+
+hr {
+    width: 200px;
+    margin-top: 0;
+    color: #918e8e;
+    height: 3px;
+}
+
 
 /*--------------------------------My Skills--------------------------------*/
 
@@ -90,7 +104,7 @@ html {
 
 .skillsheading h3 {
     font-size: 40px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     padding-top: 30px;
 }
 

@@ -10,15 +10,14 @@
     <title>Amy Keedwell - Web Developer</title>
 </head>
 <body>
-    <header>
-    <nav class="navbar navbar-dark navbar-expand-sm">
+    <header id="home">
+    <nav class="navbar navbar-light bg-light fixed-top navbar-expand-sm">
         <div class="headingname"><h3>Amy Keedwell</h3></div>
-
-    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span></button>
-
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mr-2 menuitem"><a href="#home"><h4>HOME</h4></a></li> 
                     <li class="nav-item mr-2 menuitem"><a href="#aboutme"><h4>ABOUT ME</h4></a></li> 
                     <li class="nav-item mr-2 menuitem"><a href="#myskills"><h4>MY SKILLS</h4></a></li> 
                     <li class="nav-item mr-2 menuitem"><a href="#portfolio"><h4>PORTFOLIO</h4></a></li> 
@@ -26,9 +25,9 @@
                 </ul>
         </div>
     </nav>
-        <p>
+        <div class="container-fluid">
             <h1 class="headtitle headimage"> FULL STACK WEB DEVELOPER </h1>
-        </p>
+        </div>
     </header>
     
     <section id="aboutme">
@@ -37,17 +36,17 @@
                 <div class="row justify-content-center">
                     <div class="col-12">
                         <h3> ABOUT ME </h3>
-                        <hr class="block-divider block-divider-short">
+                        <hr>
                     </div>
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-4">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
                     <img class="aboutmeimage">
                 </div>
-                <div class="col-8 abouttext">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 abouttext">
                     <p> Hi! </p>
                     <p> My Name is Amy Keedwell and I am a Full Stack Web Development Student! </p>
                     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
@@ -64,43 +63,35 @@
             </div>
         </div>
     </section>
-
-
-
-
     <section id="myskills">
        <div class="skillsheading">
             <div class="container-fluid">
                 <div class="row justify-content-center">
                     <div class="col-12">
                         <h3> MY SKILLS </h3>
+                        <hr>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row justify-content-center">
-            <div class="col skills">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2 skills">
                 <h4> HTML / HTML5 </h4>
             </div>
-             <div class="col skills">
+             <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2 skills">
                 <h4> CSS / CSS3 </h4>
             </div>
-             <div class="col skills">
+             <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2 skills">
                 <h4> JavaScript </h4>
             </div>
-             <div class="col skills">
+             <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2 skills">
                 <h4> Python </h4>
             </div>
-             <div class="col skills">
+             <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2 skills">
                 <h4> Django </h4>
             </div>
         </div>
     </section>
-
-
-
-
-
     <section id="portfolio">
         <h2> PORTFOLIO </h2>
     </section>
