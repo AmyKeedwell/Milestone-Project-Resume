@@ -30,7 +30,6 @@ hr {
 .headingname h3 {
     font-family: "Qwigley", sans-serif;
     font-size: 50px;
-    /*margin-left: 50px;*/
     color: #b4b2b2;
     font-weight: 100;
 }
@@ -78,6 +77,7 @@ hr {
     padding: 0;
 }
 
+
 /*--------------------------------About Me--------------------------------*/
 
 .aboutme {}
@@ -111,6 +111,23 @@ hr {
     text-align: center;
 }
 
+.progress {
+    position: relative;
+    height: 25px;
+    margin-bottom: 5px;
+}
+
+.progress-type {
+    position: absolute;
+    left: 0px;
+    font-size: 15px;
+    padding: 12px 30px 12px 10px;
+    color:#fafafa;
+    background-color: rgba(25, 25, 25, 0.2);
+    
+}
+
+
 /*--------------------------------Portfolio--------------------------------*/
 
 
@@ -121,6 +138,20 @@ hr {
 
 #contact {
     background-color: #e5fcf8;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:50%;
+    width:100%;
+    position:absolute;
 }
 
 
@@ -134,6 +165,7 @@ hr {
 .contactinfo i {
     font-size: 25px;
 }
+
 
 .formitems {
     max-width: 50%;
@@ -150,4 +182,5 @@ hr {
     background-color: #fafafa;
     border: #fafafa;
 }
+
 
