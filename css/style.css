@@ -96,6 +96,7 @@ hr {
 .abouttext {
    font-family: "Exo", sans-serif; 
    text-align: center;
+   padding-bottom: 50px;
 }
 
 
@@ -111,22 +112,19 @@ hr {
     text-align: center;
 }
 
-.progress {
-    position: relative;
-    height: 25px;
-    margin-bottom: 5px;
+.skillset {
+    font-family: "Exo", sans-serif;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 20px;
+    text-shadow: 2px 2px 4px #000000;
 }
 
-.progress-type {
-    position: absolute;
-    left: 0px;
-    font-size: 15px;
-    padding: 12px 30px 12px 10px;
-    color:#fafafa;
-    background-color: rgba(25, 25, 25, 0.2);
+.skills i {
+    font-size: 50px;
+    padding-bottom: 20px;
     
 }
-
 
 /*--------------------------------Portfolio--------------------------------*/
 
@@ -138,6 +136,7 @@ hr {
 
 #contact {
     background-color: #e5fcf8;
+    padding-bottom: 30px;
 }
 
 .map-responsive{
@@ -183,4 +182,59 @@ hr {
     border: #fafafa;
 }
 
+/*--------------------------------Footer--------------------------------*/
+#footer {
+    background-color: #e4e2e2;
+    padding: 50px;
+    min-height: 100px;
+}
 
+.social-links {
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+#footer h4, h6 {
+    font-family: "Exo", sans-serif;
+    font-size: 20px;
+}
+
+.download {
+    font-family: "Exo", sans-serif;
+    font-size: 18px;
+}
+
+.cv-pdf i {
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.cv-pdf i:hover {
+    color: #484949;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #484949;
+}
