@@ -4,7 +4,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
 .sectionheading {
     font-family: "Exo", sans-serif;
     text-align: center;
@@ -16,6 +15,12 @@ html {
     font-size: 40px;
     padding-bottom: 10px;
     padding-top: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .sectionheading h3 {
+    font-size: 30px;
+  }
 }
 
 hr {
@@ -45,6 +50,13 @@ hr {
     color:#b4b2b2;
 }
 
+@media only screen and (max-width: 600px) {
+  .menuitem a h4 {
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+}
+
 .headtitle {
     font-family: "Exo", sans-serif;
     font-size: 50px;
@@ -64,6 +76,8 @@ hr {
     width: 100%;
     height: auto;
 }
+
+
 
 .navbar {
     padding-bottom: 0;
@@ -93,6 +107,8 @@ hr {
     border: 3px #000000 solid;
 }
 
+
+
 .abouttext {
    font-family: "Exo", sans-serif; 
    text-align: center;
@@ -112,6 +128,13 @@ hr {
     text-align: center;
 }
 
+@media only screen and (max-width: 600px) {
+  .skills h4 {
+    font-size: 20px;
+  }
+}
+
+
 .skillset {
     font-family: "Exo", sans-serif;
     text-align: center;
@@ -120,28 +143,47 @@ hr {
     text-shadow: 2px 2px 4px #000000;
 }
 
+@media only screen and (max-width: 600px) {
+  .skillsset {
+    font-size: 20px;
+  }
+}
+
 .skills i {
     font-size: 50px;
     padding-bottom: 20px;
-    
+    text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+  .skills i {
+    font-size: 40px;
+  }
+}
+
+
 
 /*--------------------------------Portfolio--------------------------------*/
 
-
-
+.portfolio {
+  
+}
 
 
 /*--------------------------------Contact--------------------------------*/
 
 #contact {
     background-color: #e5fcf8;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
+}
+
+#form {
+    background-color: #fafafa;
 }
 
 .map-responsive{
     overflow:hidden;
-    padding-bottom:56.25%;
+    padding-bottom:50%;
     position:relative;
     height:0;
 }
@@ -156,18 +198,25 @@ hr {
 
 .contactinfo p {
     text-align: center;
-    line-height: 80px;
+    line-height: 70px;
     font-family: "Exo", sans-serif;
     font-size: 20px;
+    padding-top: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .contactinfo p  {
+    font-size: 18px;
+    line-height: 30px;
+  }
 }
 
 .contactinfo i {
     font-size: 25px;
 }
 
-
-.formitems {
-    max-width: 50%;
+.contactform{
+    padding: 20px;
 }
 
 ::placeholder {
@@ -178,8 +227,8 @@ hr {
     font-family: "Exo", sans-serif;
     border-radius: 12px;
     color:#777777;
-    background-color: #fafafa;
-    border: #fafafa;
+    background-color: #e5fcf8;
+    border: #777777 ;
 }
 
 /*--------------------------------Footer--------------------------------*/
@@ -187,6 +236,12 @@ hr {
     background-color: #e4e2e2;
     padding: 50px;
     min-height: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  #footer  {
+    padding: 10px;
+  }
 }
 
 .social-links {
@@ -215,6 +270,7 @@ hr {
     -o-transition: all 0.35s ease-in-out;
 }
 
+
 .cv-pdf i:hover {
     color: #484949;
 }
@@ -234,6 +290,8 @@ hr {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
+
+
 
 .social-links li a i:hover {
     background: #484949;
