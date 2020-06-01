@@ -65,6 +65,22 @@ hr {
     text-align: center;
     padding-top: 400px;
     padding-bottom: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+a h1 {
+    position: absolute;
+    top: 1em;
+    left: 1em;
+}
+
+@media only screen and (max-width: 600px) {
+  .headtitle {
+    font-size: 40px;
+  }
 }
 
 .headimage {
@@ -74,9 +90,14 @@ hr {
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
+
+.header{
+    position: relative;
+    text-align: center;
+}
 
 
 .navbar {
@@ -107,12 +128,18 @@ hr {
     border: 3px #000000 solid;
 }
 
-
+@media only screen and (max-width: 600px) {
+  .aboutmeimage {
+    height: 200px;
+    width: 200px;
+  }
+}
 
 .abouttext {
    font-family: "Exo", sans-serif; 
    text-align: center;
    padding-bottom: 50px;
+   padding-top: 30px;
 }
 
 
@@ -126,6 +153,7 @@ hr {
 .skills h4 {
     font-family: "Exo", sans-serif;
     text-align: center;
+    color:#000000;
 }
 
 @media only screen and (max-width: 600px) {
@@ -141,18 +169,19 @@ hr {
     font-size: 40px;
     padding-bottom: 20px;
     text-shadow: 2px 2px 4px #000000;
+    color:#000000;
 }
 
 @media only screen and (max-width: 600px) {
   .skillsset {
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 
 .skills i {
     font-size: 50px;
     padding-bottom: 20px;
-    text-align: center;
+    color:#000000;
 }
 
 @media only screen and (max-width: 600px) {
@@ -183,14 +212,14 @@ hr {
 
 .map-responsive{
     overflow:hidden;
-    padding-bottom:50%;
+    padding-bottom:30%;
     position:relative;
     height:0;
 }
 .map-responsive iframe{
     left:0;
     top:0;
-    height:50%;
+    height:80%;
     width:100%;
     position:absolute;
 }
@@ -207,7 +236,7 @@ hr {
 @media only screen and (max-width: 600px) {
   .contactinfo p  {
     font-size: 18px;
-    line-height: 30px;
+    line-height: 10px;
   }
 }
 
