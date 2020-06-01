@@ -154,6 +154,7 @@ a h1 {
     font-family: "Exo", sans-serif;
     text-align: center;
     color:#000000;
+    padding-bottom: 30px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -173,8 +174,8 @@ a h1 {
 }
 
 @media only screen and (max-width: 600px) {
-  .skillsset {
-    font-size: 15px;
+  .skillset {
+    font-size: 30px;
   }
 }
 
@@ -194,8 +195,8 @@ a h1 {
 
 /*--------------------------------Portfolio--------------------------------*/
 
-.portfolio {
-  
+.portfoliovids {
+    padding-bottom: 30px;
 }
 
 
