@@ -110,6 +110,10 @@ a h1 {
     background-color:#918e8e;
 }
 
+#navbarNavDropdown {
+    background-color:#fafafa;
+}
+
 .container-fluid {
     padding: 0;
 }
@@ -149,8 +153,17 @@ a h1 {
 }
 
 .abouttext p i {
-    font-size: 20px;
+    font-size: 30px;
     padding-left: 10px;
+    color: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.abouttext p i:hover {
+    color: #484949;
 }
 
 /*--------------------------------My Skills--------------------------------*/
@@ -224,7 +237,7 @@ a h1 {
   }
 }
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 414px) {
   .portfoliovids {
     display: block;
     text-align: center;
@@ -262,6 +275,10 @@ a h1 {
     font-size: 18px;
     line-height: 10px;
   }
+}
+
+.contactinfo {
+    margin-bottom: 40px;
 }
 
 .contactform {
@@ -314,6 +331,13 @@ a h1 {
     font-family: "Exo", sans-serif;
     font-size: 20px;
 }
+
+@media only screen and (max-width: 992px) {
+  #footer {
+    text-align: center;
+  }
+}
+
 
 .download {
     font-family: "Exo", sans-serif;
