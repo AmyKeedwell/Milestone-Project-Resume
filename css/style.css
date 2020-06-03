@@ -97,11 +97,13 @@ a h1 {
 .header{
     position: relative;
     text-align: center;
+    margin-top: 80px;
 }
 
 
 .navbar {
     padding-bottom: 0;
+    height: 80px;
 }
 
 .navbar .navbar-toggler {
@@ -114,9 +116,6 @@ a h1 {
 
 
 /*--------------------------------About Me--------------------------------*/
-
-.aboutme {}
-
 
 .aboutmeimage {
     background: url("../images/aboutme.jpg");
@@ -197,8 +196,13 @@ a h1 {
 
 .portfoliovids {
     padding-bottom: 30px;
+    width: fit-content;
 }
 
+.portfoliovids iframe {
+    margin-left: 40px;
+    margin-right: 40px;
+}
 
 /*--------------------------------Contact--------------------------------*/
 
@@ -207,31 +211,16 @@ a h1 {
     padding-bottom: 0px;
 }
 
-#form {
-    background-color: #fafafa;
+.contactinfo i {
+    font-size: 25px;
 }
-
-.map-responsive{
-    overflow:hidden;
-    padding-bottom:30%;
-    position:relative;
-    height:0;
-}
-.map-responsive iframe{
-    left:0;
-    top:0;
-    height:80%;
-    width:100%;
-    position:absolute;
-}
-
 
 .contactinfo p {
     text-align: center;
-    line-height: 70px;
+    line-height: 5px;
     font-family: "Exo", sans-serif;
-    font-size: 20px;
-    padding-top: 50px;
+    font-size: 15px;
+    padding-top: 5x;
 }
 
 @media only screen and (max-width: 600px) {
@@ -241,12 +230,20 @@ a h1 {
   }
 }
 
-.contactinfo i {
-    font-size: 25px;
+.contactform {
+    padding: 20px 100px 20px 100px;
 }
 
-.contactform{
-    padding: 20px;
+@media only screen and (max-width: 600px) {
+  .contactform  {
+    padding: 20px 30px 20px 30px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .contactform  {
+    padding: 20px 60px 20px 60px;
+  }
 }
 
 ::placeholder {
@@ -287,6 +284,7 @@ a h1 {
 .download {
     font-family: "Exo", sans-serif;
     font-size: 18px;
+    text-align: center;
 }
 
 .cv-pdf i {
@@ -303,6 +301,10 @@ a h1 {
 
 .cv-pdf i:hover {
     color: #484949;
+}
+
+.social-links{
+    float: right;
 }
 
 .social-links li a i {
