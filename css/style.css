@@ -84,7 +84,7 @@ a h1 {
 }
 
 .headimage {
-    background-image: url("../images/backgroundimage.jpeg");
+    /*background-image: url("../images/backgroundimage.jpeg");*/
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
