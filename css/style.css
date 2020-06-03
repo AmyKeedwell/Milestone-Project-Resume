@@ -125,6 +125,7 @@ a h1 {
     height: 300px;
     width: 300px;
     border: 3px #000000 solid;
+    margin-top: 40px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -141,7 +142,16 @@ a h1 {
    padding-top: 30px;
 }
 
+@media only screen and (max-width: 950px) {
+  .abouttext {
+    padding: 40px;
+  }
+}
 
+.abouttext p i {
+    font-size: 20px;
+    padding-left: 10px;
+}
 
 /*--------------------------------My Skills--------------------------------*/
 
@@ -152,7 +162,7 @@ a h1 {
 .skills h4 {
     font-family: "Exo", sans-serif;
     text-align: center;
-    color:#000000;
+    color:#918e8e;
     padding-bottom: 30px;
 }
 
@@ -169,13 +179,21 @@ a h1 {
     font-size: 40px;
     padding-bottom: 20px;
     text-shadow: 2px 2px 4px #000000;
-    color:#000000;
+    color:#918e8e;
 }
 
 @media only screen and (max-width: 600px) {
   .skillset {
     font-size: 30px;
   }
+}
+
+.grow:hover
+{
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+        color: #000000;
 }
 
 .skills i {
@@ -195,8 +213,24 @@ a h1 {
 /*--------------------------------Portfolio--------------------------------*/
 
 .portfoliovids {
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     width: fit-content;
+}
+
+@media only screen and (max-width: 900px) {
+  .portfoliovids {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .portfoliovids {
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: auto;
+  }
 }
 
 .portfoliovids iframe {
@@ -261,7 +295,7 @@ a h1 {
 /*--------------------------------Footer--------------------------------*/
 #footer {
     background-color: #e4e2e2;
-    padding: 50px;
+    padding: 20px;
     min-height: 100px;
 }
 
@@ -322,8 +356,6 @@ a h1 {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
-
-
 
 .social-links li a i:hover {
     background: #484949;
