@@ -237,18 +237,18 @@ a h1 {
   }
 }
 
-@media only screen and (max-width: 414px) {
-  .portfoliovids {
-    display: block;
-    text-align: center;
-    width: 100%;
-    height: auto;
-  }
-}
-
 .portfoliovids iframe {
     margin-left: 40px;
     margin-right: 40px;
+}
+
+@media only screen and (max-width: 414px) {
+  .portfoliovids iframe {
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 /*--------------------------------Contact--------------------------------*/
