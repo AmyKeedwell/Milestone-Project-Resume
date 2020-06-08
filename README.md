@@ -84,3 +84,5 @@ The process involved:
 
 
 ## Credits
+Header photo taken from: https://www.pexels.com/search/desk/
+Inspiration for layout taken from browsing: https://www.free-css.com/free-css-templates
