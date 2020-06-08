@@ -6,7 +6,7 @@ This is intended to be added to as I progress through the course, I will replace
 
 Hosted on GitHub pages and respository on GitHub. 
 
-[Click here to view My Project] (https://amykeedwell.github.io/Milestone-Project-Resume/)
+[Click here to view My Project](https://amykeedwell.github.io/Milestone-Project-Resume/)
 
 
 ## UX
@@ -16,7 +16,7 @@ This project is aimed at future employers and colaborators. The resume itself sh
 #### Mockups
 I created two different mock-ups, one using balsamiq wireframes then with Figma. I changed my idea completely from my initial wireframe, changing the design to a one page scrollable site to make it look more modern.
 
-[Figma Wireframe] (https://www.figma.com/file/Rgv2pMbPDQQhSOYDuhGjwm/Untitled?node-id=0%3A1)
+[Figma Wireframe](https://www.figma.com/file/Rgv2pMbPDQQhSOYDuhGjwm/Untitled?node-id=0%3A1)
 
 #### User Stories
 * An employer seeking a junior developer.
@@ -71,7 +71,7 @@ This project makes use of:
 * Loaded my website on different browsers/
     * Found that the portoflio videos do not center when opened in Internet Explorer.
 * Sent GitHub Pages link to family and friends to test on any devices and feedback if any issues are found. 
-    * ##### One issue flagged was that the navbar doesn't retract once a nav item has been clicked on.
+    * One issue flagged was that the navbar doesn't retract once a nav item has been clicked on.
 
 
 ## Deployment
