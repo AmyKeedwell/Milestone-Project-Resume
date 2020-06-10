@@ -44,6 +44,7 @@ hr {
     font-family: "Exo", sans-serif;
     display: inline-block;
     padding: 20px;
+    height: 70px;
 } 
 
 .menuitem a h4 {
@@ -316,14 +317,7 @@ a h1 {
     min-height: 100px;
 }
 
-@media only screen and (max-width: 600px) {
-  #footer  {
-    padding: 10px;
-  }
-}
-
 .social-links {
-    padding-left: 50px;
     font-size: 20px;
 }
 
@@ -332,37 +326,23 @@ a h1 {
     font-size: 20px;
 }
 
-@media only screen and (max-width: 992px) {
-  #footer {
-    text-align: center;
-  }
-}
-
-
 .download {
     font-family: "Exo", sans-serif;
     font-size: 18px;
-    text-align: center;
 }
 
 .cv-pdf i {
     font-size: 18px;
     color: #fafafa;
     text-align: center;
-    padding-left: 5px;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
 
-
 .cv-pdf i:hover {
     color: #484949;
-}
-
-.social-links{
-    float: right;
 }
 
 .social-links li a i {
@@ -379,6 +359,12 @@ a h1 {
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
+}
+
+@media only screen and (max-width: 992px) {
+  .social-links {
+    ;
+  }
 }
 
 .social-links li a i:hover {
