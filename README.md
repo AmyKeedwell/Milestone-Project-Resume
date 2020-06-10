@@ -16,11 +16,19 @@ This project is aimed at future employers and colaborators. The resume itself sh
 #### Mockups
 I created two different mock-ups, one using balsamiq wireframes then with Figma. I changed my idea completely from my initial wireframe, changing the design to a one page scrollable site to make it look more modern.
 
-[Figma Wireframe](https://www.figma.com/file/Rgv2pMbPDQQhSOYDuhGjwm/Untitled?node-id=0%3A1)
+[Initial Figma Wireframe](https://www.figma.com/file/lavYTEY7B2frKxxIN4XMjM/Resume-Wireframe?node-id=0%3A1)
+[Final Figma Wireframe](https://www.figma.com/file/Rgv2pMbPDQQhSOYDuhGjwm/Untitled?node-id=0%3A1)
+
+The only element I have changed since my wireframe is to loose the google maps as I felt it was taking up too much space on the page and seemed unnecessary for the purprose of the resume. 
+
 
 #### User Stories
 * An employer seeking a junior developer.
 * Another developer seeking someone to colaborate with on a project or simply find out more!
+
+
+## Design
+The colour scheme consists of complementary colours which were inspired by the colours in my header image and give the site a bright and clean feel. 
 
 
 ## Features
@@ -38,10 +46,7 @@ I created two different mock-ups, one using balsamiq wireframes then with Figma.
 
 #### Features left to implement
 * I initially intended to add an animation to the skills section but found after researching that this mainly requires JavaScript - a skill I am yet to learn so will update this when I can. 
-
-
-## Design
-The colour scheme consists of complementary colours which were inspired by the colours in my header image and give the site a bright and clean feel. 
+    * Instead, opted to add a hover effect to my skills to make the section feel more interactive. 
 
 
 ## Technologies Used
@@ -69,10 +74,14 @@ This project makes use of:
 ## Testing
 * Tested responsiveness using google dev tools. 
 * Loaded my website on different browsers/
-    * Found that the portoflio videos do not center when opened in Internet Explorer.
+    * Found that the portoflio videos do not center when opened in Internet Explorer - I have spent alot of time googling a solution but still unsure on how to fix this so is still an issue unfortunately. 
 * Sent GitHub Pages link to family and friends to test on any devices and feedback if any issues are found. 
-    * One issue flagged was that the navbar doesn't retract once a nav item has been clicked on.
+    * One issue flagged was that the navbar doesn't retract once a nav item has been clicked on - I aimed to finish this but couldn't find a solution without using JavaScript. 
+    * One issue was that the social links in the footer were not centering on smaller screens. I changed the alignment and fixed this issue by removing the float class and centering the text. 
+* Am I Responsive
+    * Testing responsiveness of the website
 
+![Am I Responsive](/images/amiresposive.png)
 
 ## Deployment
 The project is hosted on GitHub Pages
@@ -80,7 +89,7 @@ The project is hosted on GitHub Pages
 The process involved:
 * Host a git repository on GitHub.
 * Create project in GitPod saving each big change for version control to GitHub.
-
+* Final product hosted on GitHub Pages. 
 
 
 ## Credits
