@@ -81,7 +81,7 @@ This project makes use of:
     * Found that the portoflio videos do not center when opened in Internet Explorer - I have spent alot of time googling a solution but still unsure on how to fix this so is still an issue unfortunately. 
 
 * Sent GitHub Pages link to family and friends to test on any devices and feedback if any issues are found. 
-    * One issue flagged was that the navbar doesn't retract once a nav item has been clicked on - I aimed to finish this but couldn't find a solution without using JavaScript. 
+    * One issue flagged was that the navbar doesn't retract once a nav item has been clicked on - I aimed to fix this but couldn't find a solution without using JavaScript. 
     * One issue was that the social links in the footer were not centering on smaller screens. I changed the alignment and fixed this issue by removing the float class and centering the text. 
 
 * Posted my code in the peer-code-review section on slack for fellow students to test and give any feeback and constructive criticism.
@@ -98,7 +98,12 @@ The project is hosted on GitHub Pages
 The process involved:
 * Host a git repository on GitHub.
 * Create project in GitPod saving each big change for version control to GitHub.
-* Final product hosted on GitHub Pages. 
+* Open your project repository in GitHub.
+* Click on settings.
+* Scroll down to the GitHub Pages section.
+* Click on source and select master branch.
+* After the page refreshes you will have a link to your deployed website.
+* Final product now hosted on GitHub Pages. 
 
 
 ## Credits
