@@ -173,6 +173,10 @@ a h1 {
     background-color: #e5fcf8;
 }
 
+.skills {
+    text-align: center;
+}
+
 .skills h4 {
     font-family: "Exo", sans-serif;
     text-align: center;
@@ -185,7 +189,6 @@ a h1 {
     font-size: 20px;
   }
 }
-
 
 .skillset {
     font-family: "Exo", sans-serif;
@@ -204,10 +207,10 @@ a h1 {
 
 .grow:hover
 {
-        -webkit-transform: scale(1.3);
-        -ms-transform: scale(1.3);
-        transform: scale(1.3);
-        color: #000000;
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    color: #000000;
 }
 
 .skills i {
