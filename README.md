@@ -84,8 +84,13 @@ This project makes use of:
     * One issue flagged was that the navbar doesn't retract once a nav item has been clicked on - I aimed to finish this but couldn't find a solution without using JavaScript. 
     * One issue was that the social links in the footer were not centering on smaller screens. I changed the alignment and fixed this issue by removing the float class and centering the text. 
 
+* Posted my code in the peer-code-review section on slack for fellow students to test and give any feeback and constructive criticism.
+    * Still awaiting any replies!
+
 * Am I Responsive
-    * Testing responsiveness of the website [Click here to view](http://ami.responsivedesign.is/?url=https://amykeedwell.github.io/Milestone-Project-Resume/)
+    * Testing responsiveness of the website, see below or [click here for interactive view](http://ami.responsivedesign.is/?url=https://amykeedwell.github.io/Milestone-Project-Resume/)
+
+![Am-I-Responsive-Image](images/amiresponsive.PNG)
 
 ## Deployment
 The project is hosted on GitHub Pages
