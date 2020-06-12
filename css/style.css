@@ -72,17 +72,18 @@ hr {
     transform: translate(-50%, -50%)
 }
 
+@media only screen and (max-width: 600px) {
+  .headtitle {
+    font-size: 40px;
+  }
+}
+
 a h1 {
     position: absolute;
     top: 1em;
     left: 1em;
 }
 
-@media only screen and (max-width: 600px) {
-  .headtitle {
-    font-size: 40px;
-  }
-}
 
 .headimage {
     /*background-image: url("../images/backgroundimage.jpeg");*/
@@ -100,7 +101,6 @@ a h1 {
     text-align: center;
     margin-top: 80px;
 }
-
 
 .navbar {
     padding-bottom: 0;
@@ -225,8 +225,6 @@ a h1 {
     font-size: 40px;
   }
 }
-
-
 
 /*--------------------------------Portfolio--------------------------------*/
 
