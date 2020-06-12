@@ -54,21 +54,21 @@ Instead, opted to add a hover effect to my skills to make the section feel more 
 
 ## Technologies Used
 This project makes use of:
-* HTML
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
     * HTML for strucutre
-* CSS
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
     * CSS for Styling
-* Google Chrome
+* [Google Chrome](https://www.google.com/chrome/)
     * Used for browser and dev tools
 * [Google](https://www.google.co.uk/)
     * Google was used for research.
 * [Bootstrap](https://getbootstrap.com/)
     * HTML and CSS Framework from Bootstrap
-* Git
+* [Git](https://git-scm.com/)
     * Git used for Version Control
 * [GitHub](https://github.com/)
     * Repository hosted on GitHub
-* Github Pages
+* [Github Pages](https://amykeedwell.github.io/Milestone-Project-Resume/)
     * Website hosted on Github Pages
 * [Am I Responsive](http://ami.responsivedesign.is/)
     * Testing responsiveness of the website
