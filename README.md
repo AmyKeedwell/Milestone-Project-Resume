@@ -18,40 +18,43 @@ This project is aimed at future employers and colaborators. The resume itself sh
 ## User Stories
 * An employer seeking a junior developer.
 * Another developer seeking someone to colaborate with on a project or simply find out more!
+* To download my Resume
+* Get to know more about me
+* To contact me
+* To locate my social media to reach out to me
 
 ## Mockups
-I created two different mock-ups, one initally using balsamiq wireframes then with Figma. 
+* I created two different mock-ups, one initally using balsamiq wireframes then with Figma. 
 
-I changed my idea completely from my initial wireframe, changing the design to a one page scrollable site to make it look more modern.
+* I changed my idea completely from my initial wireframe, changing the design to a one page scrollable site to make it look more modern.
 
-[Initial Figma Wireframe](https://www.figma.com/file/lavYTEY7B2frKxxIN4XMjM/Resume-Wireframe?node-id=0%3A1)
+    * [Initial Figma Wireframe](https://www.figma.com/file/lavYTEY7B2frKxxIN4XMjM/Resume-Wireframe?node-id=0%3A1)
 
-[Final Figma Wireframe](https://www.figma.com/file/Rgv2pMbPDQQhSOYDuhGjwm/Untitled?node-id=0%3A1)
+    * [Final Figma Wireframe](https://www.figma.com/file/Rgv2pMbPDQQhSOYDuhGjwm/Untitled?node-id=0%3A1)
 
 *The only element I have changed since my wireframe is to loose the google maps as I felt it was taking up too much space on the page and seemed unnecessary for the purprose of the resume.*
 
 
 # Design
-The colour scheme consists of complementary colours which were inspired by the colours in my header image and give the site a bright and clean feel. 
-
+* The colour scheme consists of complementary colours which were inspired by the colours in my header image and give the site a bright and clean feel. 
+* [Exo](https://fonts.google.com/specimen/Exo?query=exo) font used throughout all text
+* [Qwigley](https://fonts.google.com/specimen/Qwigley?query=qwigley) font used for my header name to draw in attention.
 
 # Features
-* Documentation - ReadMe File & Mockups
-* Colour Scheme
-* Bootstrap - HTML, CSS Framework
-* Grid System - Columns and Rows
-* Icons
-* Responsive design - Mobile First
-* UX elements
-* User Flow
-* Git - Version Control System
-* GitHub - Remote Repository
-* Deployed - Hosted on Github Pages
+* Header containing my name and a smooth scroll navbar to navigate the one scrolling page style website.
+* Hero Image of a desk containing the text "Full Stack Web Developer" to clearly show what this website is about.
+* About me section containing a brief description of me containing information about my background and what I am hoping to achieve. 
+    * This also contains a link to download my resume.
+* Skills secton containing a selection of the skills I have learnt and am yet to study. These have interactive skill percentages which will be updated as I progress.
+* Portfolio section which will eventually showcase my upcoming projects and work. At present I have added videos about coding, one of which is a video about Code Institute for anyone who is also looking to take a career change.
+* Contact Me section provides a form for anyone to get in touch, this will become interactive later in my course   
+    * There are contact details such as phone/email/ address below this followed by google maps of the area. 
+* Social links are available in the footer alongside a link to download my resume. 
 
 ## Features left to implement
-I initially intended to add an animation to the skills section but found after researching that this mainly requires JavaScript - a skill I am yet to learn so will update this when I can. 
+* I initially intended to add an animation to the skills section but found after researching that this mainly requires JavaScript - a skill I am yet to learn so will update this when I can. 
 
-Instead, opted to add a hover effect to my skills to make the section feel more interactive. 
+* Instead, opted to add a hover effect to my skills to make the section feel more interactive. 
 
 
 # Technologies Used
@@ -65,7 +68,7 @@ This project makes use of:
 * [Google](https://www.google.co.uk/)
     * Google was used for research.
 * [Bootstrap](https://getbootstrap.com/)
-    * HTML and CSS Framework from Bootstrap
+    * HTML and CSS Framework, Grid System - Columns and Rows from Bootstrap
 * [Git](https://git-scm.com/)
     * Git used for Version Control
 * [GitHub](https://github.com/)
