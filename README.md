@@ -9,15 +9,17 @@ Hosted on GitHub pages and respository on GitHub.
 [Click here to view My Project](https://amykeedwell.github.io/Milestone-Project-Resume/)
 
 
-## UX
+# UX
+
+![Am-I-Responsive-Image](images/amiresponsive.PNG)
 
 This project is aimed at future employers and colaborators. The resume itself showcases my skills so far and will document my progress as I learn more coding languages and expand my portfolio. 
 
-#### User Stories
+## User Stories
 * An employer seeking a junior developer.
 * Another developer seeking someone to colaborate with on a project or simply find out more!
 
-#### Mockups
+## Mockups
 I created two different mock-ups, one initally using balsamiq wireframes then with Figma. 
 
 I changed my idea completely from my initial wireframe, changing the design to a one page scrollable site to make it look more modern.
@@ -29,11 +31,11 @@ I changed my idea completely from my initial wireframe, changing the design to a
 *The only element I have changed since my wireframe is to loose the google maps as I felt it was taking up too much space on the page and seemed unnecessary for the purprose of the resume.*
 
 
-## Design
+# Design
 The colour scheme consists of complementary colours which were inspired by the colours in my header image and give the site a bright and clean feel. 
 
 
-## Features
+# Features
 * Documentation - ReadMe File & Mockups
 * Colour Scheme
 * Bootstrap - HTML, CSS Framework
@@ -46,13 +48,13 @@ The colour scheme consists of complementary colours which were inspired by the c
 * GitHub - Remote Repository
 * Deployed - Hosted on Github Pages
 
-#### Features left to implement
+## Features left to implement
 I initially intended to add an animation to the skills section but found after researching that this mainly requires JavaScript - a skill I am yet to learn so will update this when I can. 
 
 Instead, opted to add a hover effect to my skills to make the section feel more interactive. 
 
 
-## Technologies Used
+# Technologies Used
 This project makes use of:
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
     * HTML for strucutre
@@ -74,7 +76,7 @@ This project makes use of:
     * Testing responsiveness of the website
 
 
-## Testing
+# Testing
 * Tested responsiveness using google dev tools. 
 
 * Loaded my website on different browsers
@@ -88,11 +90,13 @@ This project makes use of:
     * Still awaiting any replies!
 
 * Am I Responsive
-    * Testing responsiveness of the website, see below or [click here for interactive view](http://ami.responsivedesign.is/?url=https://amykeedwell.github.io/Milestone-Project-Resume/)
+    * Testing responsiveness of the website
 
-![Am-I-Responsive-Image](images/amiresponsive.PNG)
+* Code Validators to ensure my code is written in the correct format 
+    * [HTML Validator](https://validator.w3.org/)
+    * [CSS Validator](https://jigsaw.w3.org/css-validator/)
 
-## Deployment
+# Deployment
 The project is hosted on GitHub Pages
 
 The process involved:
@@ -105,8 +109,29 @@ The process involved:
 * After the page refreshes you will have a link to your deployed website.
 * Final product now hosted on GitHub Pages. 
 
+To deploy your own version of the website:
 
-## Credits
+* Have git installed
+* Visit the repository
+* Click 'Clone or download' and copy the code for http
+* Open your chosen IDE (Cloud9, VS Code, etc.)
+* Open a terminal in your root directory
+* Type 'git clone ' followed by the code taken from github repository
+    * git clone https://amykeedwell.github.io/Milestone-Project-Resume/
+* When this completes you have your own version of the website
+* Feel free to make any changes to it
+* The website can be run by opening one of the HTML files within a web browser
+* Visit the link provided
+* Your website with any made changes will appear
+* Saved changes to the website will appear here after refreshing the page
+
+The benefits of hosting your website on GitHub pages is that any pushed changes to your project will automatically update the website. Development branches can be created and merged to the master when complete.
+
+It may take a moment for changes to appear on the hosted website.
+
+During development the site is written in VS Code. It is run using Live Server plugin for VS Code.
+
+# Credits
 Header photo taken from: https://www.pexels.com/search/desk/
 
 Inspiration for layout taken from browsing: https://www.free-css.com/free-css-templates

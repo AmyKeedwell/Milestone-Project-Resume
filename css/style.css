@@ -35,7 +35,7 @@ hr {
 .headingname h3 {
     font-family: "Qwigley", sans-serif;
     font-size: 50px;
-    color: #b4b2b2;
+    color: #777777;
     font-weight: 100;
 }
 
@@ -48,7 +48,7 @@ hr {
 } 
 
 .menuitem a h4 {
-    color:#b4b2b2;
+    color:#777777;
 }
 
 @media only screen and (max-width: 600px) {
@@ -254,6 +254,10 @@ a h1 {
   }
 }
 
+.secondvid {
+    margin-top: 40px;
+}
+
 /*--------------------------------Contact--------------------------------*/
 
 #contact {
@@ -312,6 +316,26 @@ a h1 {
     border: #777777 ;
 }
 
+.map-responsive{
+    overflow:hidden;
+    padding-top: 15%;
+    padding-bottom:15%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:80%;
+    width:100%;
+    position:absolute;
+}
+
+#map{
+    background-color:#fafafa;
+    padding-top: 40px;
+}
+
 /*--------------------------------Footer--------------------------------*/
 #footer {
     background-color: #e4e2e2;
@@ -335,7 +359,7 @@ a h1 {
 
 .cv-pdf i {
     font-size: 18px;
-    color: #fafafa;
+    color: #8f8f8f;
     text-align: center;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
