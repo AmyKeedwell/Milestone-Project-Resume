@@ -30,6 +30,11 @@ hr {
     height: 3px;
     padding-bottom: 10px;
 }
+
+.container-fluid {
+    padding: 0;
+}
+
 /*----------------------------------Header-----------------------------------*/
 
 .headingname h3 {
@@ -119,12 +124,11 @@ a h1 {
     background-color:#fafafa;
 }
 
-.container-fluid {
-    padding: 0;
-}
-
-
 /*--------------------------------About Me--------------------------------*/
+
+#aboutme {
+    background-color: #fafafa;
+}
 
 .aboutmeimage {
     background-repeat: no-repeat;
@@ -232,10 +236,15 @@ a h1 {
 
 /*--------------------------------Portfolio--------------------------------*/
 
+#portfolio {
+    background-color: #fafafa;
+}
+
 .portfoliovids {
     padding-bottom: 40px;
     width: fit-content;
     margin:0 auto;
+    text-align: -webkit-center;
 }
 
 @media only screen and (max-width: 900px) {
