@@ -235,6 +235,7 @@ a h1 {
 .portfoliovids {
     padding-bottom: 40px;
     width: fit-content;
+    margin:0 auto;
 }
 
 @media only screen and (max-width: 900px) {
