@@ -4,10 +4,18 @@ A website created for the purpose of future employers or colaborators to find ou
 
 This is intended to be added to as I progress through the course, I will replace the example portfolio items with my work once I start to build up my own portfolio to showcase my skills.
 
-Hosted on GitHub pages and respository on GitHub. 
+You can find out anything you need to know about me in my quest into the world of Web Development. 
+I have shared some brief information about my employment history and my next adventure into a new career. 
+I have listed my skills including programming languages I am yet in learn in further modules to come. 
+There is a section ready for me to fill with a portfolio of my work as I progress, I intend to expand this section alot!
+I have included a form to get in touch with me to find out further information or just to have a friendly web development chat. 
+I finised the page off with a footer reinforcing my name and what I do, followed by links to useful social media. 
+
+My page is hosted on GitHub pages and respository on GitHub. 
 
 [Click here to view My Project](https://amykeedwell.github.io/Milestone-Project-Resume/)
 
+[Click here to view my Repository](https://github.com/AmyKeedwell/Milestone-Project-Resume)
 
 # UX
 
@@ -17,11 +25,16 @@ This project is aimed at future employers and colaborators. The resume itself sh
 
 ## User Stories
 * An employer seeking a junior developer.
+
 * Another developer seeking someone to colaborate with on a project or simply find out more!
-* To download my Resume
-* Get to know more about me
-* To contact me
-* To locate my social media to reach out to me
+
+* An employer seeking to download my Resume.
+
+* Anyone who is interested to get to know more about me.
+
+* To get in touch with me, either to discuss job opportunities, a collaboration or even a general chat.
+
+* To locate my social media to reach out to me.
 
 ## Mockups
 * I created two different mock-ups, one initally using balsamiq wireframes then with Figma. 
@@ -32,23 +45,30 @@ This project is aimed at future employers and colaborators. The resume itself sh
 
     * [Final Figma Wireframe](https://www.figma.com/file/Rgv2pMbPDQQhSOYDuhGjwm/Untitled?node-id=0%3A1)
 
-*The only element I have changed since my wireframe is to loose the google maps as I felt it was taking up too much space on the page and seemed unnecessary for the purprose of the resume.*
-
+* *Only a few aspects have changed since my final wireframe:*
+    * *I chose to use a hover effect rather than an animation for the 'My Skills' section, I hope to add the animation once I have progressed my skills during the next JavaScript Module.*
+    * *I moved the location of the map in the 'Contact Me' section to below my information and form as these parts should be the main focus of this section.*
 
 # Design
 * The colour scheme consists of complementary colours which were inspired by the colours in my header image and give the site a bright and clean feel. 
-* [Exo](https://fonts.google.com/specimen/Exo?query=exo) font used throughout all text
+* [Exo](https://fonts.google.com/specimen/Exo?query=exo) font used throughout all text.
 * [Qwigley](https://fonts.google.com/specimen/Qwigley?query=qwigley) font used for my header name to draw in attention.
 
 # Features
 * Header containing my name and a smooth scroll navbar to navigate the one scrolling page style website.
+
 * Hero Image of a desk containing the text "Full Stack Web Developer" to clearly show what this website is about.
+
 * About me section containing a brief description of me containing information about my background and what I am hoping to achieve. 
     * This also contains a link to download my resume.
+
 * Skills secton containing a selection of the skills I have learnt and am yet to study. These have interactive skill percentages which will be updated as I progress.
+
 * Portfolio section which will eventually showcase my upcoming projects and work. At present I have added videos about coding, one of which is a video about Code Institute for anyone who is also looking to take a career change.
-* Contact Me section provides a form for anyone to get in touch, this will become interactive later in my course   
+
+* Contact Me section provides a form for anyone to get in touch, this will become interactive later in my course.   
     * There are contact details such as phone/email/ address below this followed by google maps of the area. 
+
 * Social links are available in the footer alongside a link to download my resume. 
 
 ## Features left to implement
@@ -60,30 +80,32 @@ This project is aimed at future employers and colaborators. The resume itself sh
 # Technologies Used
 This project makes use of:
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-    * HTML for strucutre
+    * HTML for structure.
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-    * CSS for Styling
+    * CSS for Styling.
 * [Google Chrome](https://www.google.com/chrome/)
-    * Used for browser and dev tools
+    * Used for browser and dev tools.
 * [Google](https://www.google.co.uk/)
     * Google was used for research.
 * [Bootstrap](https://getbootstrap.com/)
-    * HTML and CSS Framework, Grid System - Columns and Rows from Bootstrap
+    * HTML and CSS Framework, Grid System - Columns and Rows from Bootstrap.
 * [Git](https://git-scm.com/)
-    * Git used for Version Control
+    * Git used for Version Control.
 * [GitHub](https://github.com/)
-    * Repository hosted on GitHub
+    * Repository hosted on GitHub.
 * [Github Pages](https://amykeedwell.github.io/Milestone-Project-Resume/)
-    * Website hosted on Github Pages
+    * Website hosted on Github Pages.
 * [Am I Responsive](http://ami.responsivedesign.is/)
-    * Testing responsiveness of the website
+    * Testing responsiveness of the website.
 
 
 # Testing
 * Tested responsiveness using google dev tools. 
 
-* Loaded my website on different browsers
-    * Found that the portoflio videos do not center when opened in Internet Explorer - I have spent alot of time googling a solution but still unsure on how to fix this so is still an issue unfortunately. 
+* Loaded my website on different browsers:
+    * Google Chrome - I created my site whilst viewing on Chrome, I believe it works seemlessly on this browser.
+    * Internet Explorer - Found that the portoflio videos do not center, I have spent alot of time googling a solution but still unsure on how to fix this, tried adding 'margin:0 auto;' to the CSS but no luck so this is still an issue unfortunately. 
+    * Safari - same issue with the videos sitting to the left on the page. Again googled solutions and added 'text-align: -webkit-center;' but this didn't seem to work. 
 
 * Sent GitHub Pages link to family and friends to test on any devices and feedback if any issues are found. 
     * One issue flagged was that the navbar doesn't retract once a nav item has been clicked on - I aimed to fix this but couldn't find a solution without using JavaScript. 
@@ -92,10 +114,10 @@ This project makes use of:
 * Posted my code in the peer-code-review section on slack for fellow students to test and give any feeback and constructive criticism.
     * Still awaiting any replies!
 
-* Am I Responsive
-    * Testing responsiveness of the website
+* [Am I Responsive](http://ami.responsivedesign.is/?url=https://amykeedwell.github.io/Milestone-Project-Resume/)
+    * Testing responsiveness of the website, found the page looked great on all screen sizes available.
 
-* Code Validators to ensure my code is written in the correct format 
+* Code Validators to ensure my code is written in the correct format and there are no errors.
     * [HTML Validator](https://validator.w3.org/)
     * [CSS Validator](https://jigsaw.w3.org/css-validator/)
 
@@ -104,6 +126,7 @@ The project is hosted on GitHub Pages
 
 The process involved:
 * Host a git repository on GitHub.
+
 * Create project in GitPod saving each big change for version control to GitHub.
 * Open your project repository in GitHub.
 * Click on settings.
@@ -115,6 +138,7 @@ The process involved:
 To deploy your own version of the website:
 
 * Have git installed
+
 * Visit the repository
 * Click 'Clone or download' and copy the code for http
 * Open your chosen IDE (Cloud9, VS Code, etc.)
