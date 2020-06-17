@@ -256,6 +256,9 @@ a h1 {
 .portfoliovids iframe {
     margin-left: 40px;
     margin-right: 40px;
+    width:330; 
+    height:190;
+    
 }
 
 @media only screen and (max-width: 414px) {
@@ -298,7 +301,7 @@ a h1 {
 }
 
 .contactinfo {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .contactform {
@@ -332,21 +335,24 @@ a h1 {
 .map-responsive{
     overflow:hidden;
     padding-top: 15%;
-    padding-bottom:15%;
     position:relative;
-    height:0;
 }
 .map-responsive iframe{
     left:0;
     top:0;
-    height:80%;
+    height:100%;
     width:100%;
     position:absolute;
+    border: 0;
 }
 
 #map{
-    background-color:#fafafa;
-    padding-top: 40px;
+    background-color:#e5fcf8;
+}
+
+.map{
+    margin-bottom: 20px;
+    padding: 0;
 }
 
 /*--------------------------------Footer--------------------------------*/
