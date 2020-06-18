@@ -40,7 +40,7 @@ hr {
     color: #777777;
     font-weight: 100;
     margin-right: 7px;
-
+    margin-left: 15px;
 }
 
 .menuitem {
@@ -107,14 +107,18 @@ a h1 {
 
 .headnavbar {
     width: 100%;
+    padding: 0px;
+}
+
+.dropdown{
+    margin-right: 15px;
 }
 
 .navbar {
-    padding-bottom: 0;
     height: 80px;
 }
 
-.navbar .navbar-toggler {
+.headnavbar .dropdown {
     background-color:#918e8e;
 }
 
@@ -125,7 +129,7 @@ a h1 {
 /*--------------------------------About Me--------------------------------*/
 
 #aboutme {
-    background-color: #fafafa;
+    background-color: #f1f1f1;
 }
 
 .aboutmeimage {
@@ -235,7 +239,7 @@ a h1 {
 /*--------------------------------Portfolio--------------------------------*/
 
 #portfolio {
-    background-color: #fafafa;
+    background-color: #f1f1f1;
 }
 
 .portfoliovids {
@@ -335,7 +339,15 @@ a h1 {
     overflow:hidden;
     padding-top: 15%;
     position:relative;
+    height: 250px;
 }
+
+@media only screen and (max-width: 600px) {
+ .map-responsive {
+   height: 250px;
+  }
+}
+
 .map-responsive iframe{
     left:0;
     top:0;
