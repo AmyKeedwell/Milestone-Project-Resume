@@ -144,7 +144,6 @@ To deploy your own version of the website:
 * Open your chosen IDE (Cloud9, VS Code, etc.)
 * Open a terminal in your root directory
 * Type 'git clone ' followed by the code taken from github repository
-    * git clone https://amykeedwell.github.io/Milestone-Project-Resume/
 * When this completes you have your own version of the website
 * Feel free to make any changes to it
 * The website can be run by opening one of the HTML files within a web browser
