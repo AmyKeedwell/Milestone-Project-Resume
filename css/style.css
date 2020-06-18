@@ -82,13 +82,6 @@ hr {
   }
 }
 
-a h1 {
-    position: absolute;
-    top: 1em;
-    left: 1em;
-}
-
-
 .headimage {
     background-position: center center;
     background-repeat: no-repeat;
@@ -96,6 +89,10 @@ a h1 {
     background-attachment: fixed;
     width: 100%;
     height: 100%;
+}
+
+.background {
+    padding: 0px;
 }
 
 .header{
