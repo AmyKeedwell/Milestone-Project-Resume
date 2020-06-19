@@ -93,8 +93,16 @@ This project makes use of:
     * Used for browser and dev tools.
 * [Google](https://www.google.co.uk/)
     * Google was used for research.
+* [Google Fonts](https://fonts.google.com/)
+    * Used for typogrphy
 * [Bootstrap](https://getbootstrap.com/)
     * HTML and CSS Framework, Grid System - Columns and Rows from Bootstrap.
+* [Font Awesome](https://fontawesome.com/)
+    * Used to add icons throughout the page.
+* [Balsamiq Wireframes](https://balsamiq.com/wireframes/)
+    * Used to make initial wireframe.
+* [Figma](https://www.figma.com/)
+    * Used to make my final wireframe.
 * [Git](https://git-scm.com/)
     * Git used for Version Control.
 * [GitHub](https://github.com/)
@@ -112,7 +120,25 @@ This project makes use of:
 
 
 # Testing
-* Tested responsiveness using google dev tools. 
+* Tested responsiveness using google dev tools. I tested the following types:
+
+    * iPhone 5/SE (portrait: 320x568 & landscape: 568x320)
+    * Galaxy S5/Moto G4 (portrait: 360x640 & landscape: 640x360)
+    * iPhone 6/7/8 (portrait: 375x667 & landscape: 667x375)
+    * iPhone X (portrait: 375x812 & landscape: 812x375)
+    * Pixel 2 (portrait: 411x731 & landscape: 731x411)
+    * Pixel 2 XL (portrait: 411x823 & landscape: 823x411)
+    * iPhone 6/7/8 Plus (portrait: 414x736 & landscape: 736x414)
+    * iPad (portrait: 768x1024 & landscape: 1024x768)
+    * iPad Pro (portrait: 1024x1366 & landscape: 1366x1024)
+
+* Attempt to submit form without filling in all sections correctly to check that a pop up stops the form from being submitted incorrectly.
+
+* Tested the navbar links to each section of the site to ensure they smoothly scroll to the correct section of the page, checked as horizontal navbar and dropdown menu.
+
+* Tested the link to download my Resume on PC/Mobile to ensure this works correctly. 
+
+* Checked responsiveness of hover effect in skills section which works by hovering the mouse on PC and clicking on the %'s on mobile devices.
 
 * Loaded my website on different browsers:
     * Google Chrome - I created my site whilst viewing on Chrome, I believe it works seemlessly on this browser.
