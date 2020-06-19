@@ -1,6 +1,6 @@
 # My First Milestone Project - My Resume
 
-A website created for the purpose of future employers or colaborators to find out more about me on my journey to become a web developer. 
+A website created for the purpose of exhibiting my capability and skill in HTML and CSS. The website is aimed at future employers or colaborators to find out more about me on my journey to become a web developer. 
 
 This is intended to be added to as I progress through the course, I will replace the example portfolio items with my work once I start to build up my own portfolio to showcase my skills.
 
@@ -61,27 +61,27 @@ This project is aimed at future employers and colaborators. The resume itself sh
 * [Qwigley](https://fonts.google.com/specimen/Qwigley?query=qwigley) font used for my header name to draw in attention.
 
 # Features
-* Header containing my name and a smooth scroll navbar to navigate the one scrolling page style website.
+* **Header** containing my name and a smooth scroll navbar to navigate the one scrolling page style website.
 
     * Hero Image of a desk containing the text "Full Stack Web Developer" to clearly show what this website is about.
 
-* About me section containing a brief description of me containing information about my background and what I am hoping to achieve. 
+* **About me** section containing a brief description of me containing information about my background and what I am hoping to achieve. 
     * This also contains a link to download my resume.
 
-* Skills secton containing a selection of the skills I have learnt and am yet to study. These have interactive skill percentages which will be updated as I progress.
+* **Skills** section containing a selection of the skills I have learnt and am yet to study. These have interactive skill percentages which will be updated as I progress.
 
-* Portfolio section which will eventually showcase my upcoming projects and work. At present I have added videos about coding, one of which is a video about Code Institute for anyone who is also looking to take a career change.
+* **Portfolio** section which will eventually showcase my upcoming projects and work. At present I have added videos about coding, one of which is a video about Code Institute for anyone who is also looking to take a career change.
 
-* Contact Me section provides a form for anyone to get in touch, this will become interactive later in my course.   
+* **Contact Me** section provides a form for anyone to get in touch, this will become interactive later in my course.   
     * There are contact details such as phone/email/ address below this followed by google maps of the area. 
 
-* Social links are available in the footer alongside a link to download my resume. 
+* **Social links** are available in the footer alongside a link to download my resume. 
 
 ## Features left to implement
 * I initially intended to add an animation to the skills section but found after researching that this mainly requires JavaScript - a skill I am yet to learn so will update this when I can. 
+    * Instead, opted to add a hover effect to my skills to make the section feel more interactive. 
 
-* Instead, opted to add a hover effect to my skills to make the section feel more interactive. 
-
+* A functional form where you can contact me. 
 
 # Technologies Used
 This project makes use of:
@@ -143,13 +143,15 @@ This project makes use of:
 * Loaded my website on different browsers:
     * Google Chrome - I created my site whilst viewing on Chrome, I believe it works seemlessly on this browser.
     
-    * Internet Explorer - Found that the portoflio videos do not center, I have spent alot of time googling a solution but still unsure on how to fix this, tried adding 'margin:0 auto;' to the CSS but no luck so this is still an issue unfortunately. 
-    * Safari - same issue with the videos sitting to the left on the page. Again googled solutions and added 'text-align: -webkit-center;' but this didn't seem to work. 
     * Samsung S9 - Sent myself GitHub Pages link and checked functionality, no problems found all sections looked balance and loaded correctly, all links functional.
     * Samsung S10 - Sent my partner GitHub Pages link and checked functionality, no problems found all sections looked balance and loaded correctly, all links functional, it was noted that my Header Text 'Full Stack Web Developer' was blending into the background image but this was down to the phone being set to Dark Mode.
     * iPad - Sent my family the link to test functionality and get feedback
         * One issue flagged was that the navbar doesn't retract once a nav item has been clicked on - I aimed to fix this but couldn't find a solution without using JavaScript. 
         * One issue was that the social links in the footer were not centering on smaller screens. I changed the alignment and fixed this issue by removing the float class and centering the text. 
+    
+        **Bugs Found**:
+        * Internet Explorer - Found that the portoflio videos do not center, I have spent alot of time googling a solution but still unsure on how to fix this, tried adding 'margin:0 auto;' to the CSS but no luck so this is still an issue unfortunately. 
+        * Safari - same issue with the videos sitting to the left on the page. Again googled solutions and added 'text-align: -webkit-center;' but this didn't seem to work. 
 
 * Posted my code in the peer-code-review section on slack for fellow students to test and give any feeback and constructive criticism.
     * Still awaiting any replies!
@@ -197,7 +199,12 @@ It may take a moment for changes to appear on the hosted website.
 
 During development the site is written in VS Code. It is run using Live Server plugin for VS Code.
 
-# Credits
-Header photo taken from: https://www.pexels.com/search/desk/
+# Credits.
+* Header photo taken from: https://www.pexels.com/search/desk/
 
-Inspiration for layout taken from browsing: https://www.free-css.com/free-css-templates
+* Inspiration for layout taken from browsing: https://www.free-css.com/free-css-templates
+
+# Acknowledgements
+* My mentor Seun Owonikoko for her guidance, advice and reference material. 
+
+* Code Institute for teaching me the skills to create this site!
