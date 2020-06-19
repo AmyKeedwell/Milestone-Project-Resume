@@ -30,6 +30,10 @@ This project is aimed at future employers and colaborators. The resume itself sh
 
 * An employer seeking to download my Resume.
 
+* To view my current skill levels.
+
+* View links to my up and coming portfolio.
+
 * Anyone who is interested to get to know more about me.
 
 * To get in touch with me, either to discuss job opportunities, a collaboration or even a general chat.
@@ -51,13 +55,15 @@ This project is aimed at future employers and colaborators. The resume itself sh
 
 # Design
 * The colour scheme consists of complementary colours which were inspired by the colours in my header image and give the site a bright and clean feel. 
+    * I have used a combination of a light grey (#f1f1f1) and a mint green (#e5fcf8).
+
 * [Exo](https://fonts.google.com/specimen/Exo?query=exo) font used throughout all text.
 * [Qwigley](https://fonts.google.com/specimen/Qwigley?query=qwigley) font used for my header name to draw in attention.
 
 # Features
 * Header containing my name and a smooth scroll navbar to navigate the one scrolling page style website.
 
-* Hero Image of a desk containing the text "Full Stack Web Developer" to clearly show what this website is about.
+    * Hero Image of a desk containing the text "Full Stack Web Developer" to clearly show what this website is about.
 
 * About me section containing a brief description of me containing information about my background and what I am hoping to achieve. 
     * This also contains a link to download my resume.
@@ -97,6 +103,12 @@ This project makes use of:
     * Website hosted on Github Pages.
 * [Am I Responsive](http://ami.responsivedesign.is/)
     * Testing responsiveness of the website.
+* [HTML Validator](https://validator.w3.org/)
+    * Validated HTML code by direct input to check for any errors.
+* [CSS Validator](https://jigsaw.w3.org/css-validator/)
+    * Validated CSS code by direct input to check for any errors.
+* [HTML Formatter](https://www.freeformatter.com/html-formatter.html#ad-output)
+    * Checked that HTML code is formatted and indented correctly.
 
 
 # Testing
@@ -104,12 +116,14 @@ This project makes use of:
 
 * Loaded my website on different browsers:
     * Google Chrome - I created my site whilst viewing on Chrome, I believe it works seemlessly on this browser.
+    
     * Internet Explorer - Found that the portoflio videos do not center, I have spent alot of time googling a solution but still unsure on how to fix this, tried adding 'margin:0 auto;' to the CSS but no luck so this is still an issue unfortunately. 
     * Safari - same issue with the videos sitting to the left on the page. Again googled solutions and added 'text-align: -webkit-center;' but this didn't seem to work. 
-
-* Sent GitHub Pages link to family and friends to test on any devices and feedback if any issues are found. 
-    * One issue flagged was that the navbar doesn't retract once a nav item has been clicked on - I aimed to fix this but couldn't find a solution without using JavaScript. 
-    * One issue was that the social links in the footer were not centering on smaller screens. I changed the alignment and fixed this issue by removing the float class and centering the text. 
+    * Samsung S9 - Sent myself GitHub Pages link and checked functionality, no problems found all sections looked balance and loaded correctly, all links functional.
+    * Samsung S10 - Sent my partner GitHub Pages link and checked functionality, no problems found all sections looked balance and loaded correctly, all links functional, it was noted that my Header Text 'Full Stack Web Developer' was blending into the background image but this was down to the phone being set to Dark Mode.
+    * iPad - Sent my family the link to test functionality and get feedback
+        * One issue flagged was that the navbar doesn't retract once a nav item has been clicked on - I aimed to fix this but couldn't find a solution without using JavaScript. 
+        * One issue was that the social links in the footer were not centering on smaller screens. I changed the alignment and fixed this issue by removing the float class and centering the text. 
 
 * Posted my code in the peer-code-review section on slack for fellow students to test and give any feeback and constructive criticism.
     * Still awaiting any replies!
