@@ -1,8 +1,8 @@
 # My First Milestone Project - My Resume
 
-A website created for the purpose of exhibiting my capability and skill in HTML and CSS. The website is aimed at future employers or colaborators to find out more about me on my journey to become a web developer. 
+A website created a single scrolling page site with four sections for the purpose of exhibiting my capability and skill in HTML and CSS. 
 
-This is intended to be added to as I progress through the course, I will replace the example portfolio items with my work once I start to build up my own portfolio to showcase my skills.
+The website is aimed at future employers or colaborators to find out more about me on my journey to become a web developer. This is intended to be added to as I progress through the course, I will replace the example portfolio items with my work once I start to build up my own portfolio to showcase my skills.
 
 You can find out anything you need to know about me in my quest into the world of Web Development. 
 I have shared some brief information about my employment history and my next adventure into a new career. 
@@ -43,7 +43,7 @@ This project is aimed at future employers and colaborators. The resume itself sh
 ## Mockups
 * I created two different mock-ups, one initally using balsamiq wireframes then with Figma. 
 
-* I changed my idea completely from my initial wireframe, changing the design to a one page scrollable site to make it look more modern.
+* I changed my idea completely from my initial wireframe, changing the design to a one page scrollable site with a clean colour scheme to make it look more modern.
 
     * [Initial Figma Wireframe](https://www.figma.com/file/lavYTEY7B2frKxxIN4XMjM/Resume-Wireframe?node-id=0%3A1)
 
@@ -52,11 +52,17 @@ This project is aimed at future employers and colaborators. The resume itself sh
 * *Only a few aspects have changed since my final wireframe:*
     * *I chose to use a hover effect rather than an animation for the 'My Skills' section, I hope to add the animation once I have progressed my skills during the next JavaScript Module.*
     * *I moved the location of the map in the 'Contact Me' section to below my information and form as these parts should be the main focus of this section.*
+    * *In my wireframe the navbar has a transparent background, I changed this to a solid colour as it ensures the navbar is legible when scrolling the page as the navbar is fixed to the top.*
 
 # Design
-* The colour scheme consists of complementary colours which were inspired by the colours in my header image and give the site a bright and clean feel. 
-    * I have used a combination of a light grey (#f1f1f1) and a mint green (#e5fcf8).
+* I decided on a single scrolling page with a fixed-top navbar design for my project as the UX flowed easier.
 
+* The colour scheme consists of complementary colours which were inspired by the colours in my header image and give the site a bright and clean feel. 
+    * I have used a combination of:
+        * Light grey (#f1f1f1) as a background colour.
+        * Mint green (#e5fcf8) as a background colour.
+        * Darker grey (#918e8e) for all section headings.
+        * Off Black (#212529) for all main text sections.
 * [Exo](https://fonts.google.com/specimen/Exo?query=exo) font used throughout all text.
 * [Qwigley](https://fonts.google.com/specimen/Qwigley?query=qwigley) font used for my header name to draw in attention.
 
@@ -73,15 +79,15 @@ This project is aimed at future employers and colaborators. The resume itself sh
 * **Portfolio** section which will eventually showcase my upcoming projects and work. At present I have added videos about coding, one of which is a video about Code Institute for anyone who is also looking to take a career change.
 
 * **Contact Me** section provides a form for anyone to get in touch, this will become interactive later in my course.   
-    * There are contact details such as phone/email/ address below this followed by google maps of the area. 
+    * There are contact details such as phone/email/ address below this followed by google maps of the general area. 
 
-* **Social links** are available in the footer alongside a link to download my resume. 
+* **Social links** are available in the footer alongside another link to download my resume. 
 
 ## Features left to implement
 * I initially intended to add an animation to the skills section but found after researching that this mainly requires JavaScript - a skill I am yet to learn so will update this when I can. 
     * Instead, opted to add a hover effect to my skills to make the section feel more interactive. 
 
-* A functional form where you can contact me. 
+* A **functional** form where you can contact me. 
 
 # Technologies Used
 This project makes use of:
@@ -149,7 +155,7 @@ This project makes use of:
         * One issue flagged was that the navbar doesn't retract once a nav item has been clicked on - I aimed to fix this but couldn't find a solution without using JavaScript. 
         * One issue was that the social links in the footer were not centering on smaller screens. I changed the alignment and fixed this issue by removing the float class and centering the text. 
     
-        **Bugs Found**:
+    **Bugs Found**:
         * Internet Explorer - Found that the portoflio videos do not center, I have spent alot of time googling a solution but still unsure on how to fix this, tried adding 'margin:0 auto;' to the CSS but no luck so this is still an issue unfortunately. 
         * Safari - same issue with the videos sitting to the left on the page. Again googled solutions and added 'text-align: -webkit-center;' but this didn't seem to work. 
 
