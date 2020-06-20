@@ -19,7 +19,7 @@ My page is hosted on GitHub pages and respository on GitHub.
 
 # UX
 
-![Am-I-Responsive-Image](images/amiresponsive.PNG)
+![Am-I-Responsive-Image](READMEimages/amiresponsive.PNG)
 
 This project is aimed at future employers and colaborators. The resume itself showcases my skills so far and will document my progress as I learn more coding languages and expand my portfolio. 
 
@@ -156,6 +156,7 @@ This project makes use of:
         * One issue was that the social links in the footer were not centering on smaller screens. I changed the alignment and fixed this issue by removing the float class and centering the text. 
     
     **Bugs Found**:
+
         * Internet Explorer - Found that the portoflio videos do not center, I have spent alot of time googling a solution but still unsure on how to fix this, tried adding 'margin:0 auto;' to the CSS but no luck so this is still an issue unfortunately. 
         * Safari - same issue with the videos sitting to the left on the page. Again googled solutions and added 'text-align: -webkit-center;' but this didn't seem to work. 
 
@@ -166,8 +167,13 @@ This project makes use of:
     * Testing responsiveness of the website, found the page looked great on all screen sizes available.
 
 * Code Validators to ensure my code is written in the correct format and there are no errors.
-    * [HTML Validator](https://validator.w3.org/)
+    * [HTML Validator](https://validator.w3.org/) 
+
+    ![HTML-Validation](READMEimages/HTMLValidation.PNG)
+
     * [CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+    ![CSS-Validation](READMEimages/CSSValidator.PNG)
 
 # Deployment
 The project is hosted on GitHub Pages

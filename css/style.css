@@ -416,11 +416,6 @@ hr {
     -o-transition: all 0.35s ease-in-out;
 }
 
-@media only screen and (max-width: 992px) {
-  .social-links {
-    ;
-  }
-}
 
 .social-links li a i:hover {
     background: #484949;
