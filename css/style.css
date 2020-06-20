@@ -259,7 +259,6 @@ hr {
     margin-right: 40px;
     width:330px; 
     height:190px;
-    
 }
 
 @media only screen and (max-width: 414px) {
@@ -364,7 +363,6 @@ hr {
     padding: 20px;
 }
 
-
 /*--------------------------------Footer--------------------------------*/
 #footer {
     background-color: #e4e2e2;
@@ -415,7 +413,6 @@ hr {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
-
 
 .social-links li a i:hover {
     background: #484949;
