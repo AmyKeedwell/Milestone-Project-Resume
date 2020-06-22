@@ -2,7 +2,7 @@
 
 A website created a single scrolling page site with four sections for the purpose of exhibiting my capability and skill in HTML and CSS. 
 
-The website is aimed at future employers or colaborators to find out more about me on my journey to become a web developer. This is intended to be added to as I progress through the course, I will replace the example portfolio items with my work once I start to build up my own portfolio to showcase my skills.
+The website is aimed at future employers or colaborators to find out more about me on my journey to become a web developer. This is intended to be added to as I progress through the course, I will replace the example portfolio items with my work once I start to build up my own portfolio to showcase my skills. I decided to create this for my first project as I will eventually need an online resume once I am ready to begin looking for a job as a web developer, this enables me to have a starting point which I can continuely update and improve and utitlise in the future. 
 
 You can find out anything you need to know about me in my quest into the world of Web Development. 
 I have shared some brief information about my employment history and my next adventure into a new career. 
@@ -67,18 +67,18 @@ This project is aimed at future employers and colaborators. The resume itself sh
 * [Qwigley](https://fonts.google.com/specimen/Qwigley?query=qwigley) font used for my header name to draw in attention.
 
 # Features
-* **Header** containing my name and a smooth scroll navbar to navigate the one scrolling page style website.
+* **Header** containing my name and a smooth scroll navbar to navigate the one scrolling page style website.I have used bootstrap to include a drop down menu on smaller screens with a 'hamburger icon' in the header. This is a fixed navbar and scrolls with the user as they scroll up and down the page for ease of navigation.
 
-    * Hero Image of a desk containing the text "Full Stack Web Developer" to clearly show what this website is about.
+    * Hero Image of a desk containing the text "Full Stack Web Developer" to clearly show what this website is about and set the theme for the rest of the website.
 
-* **About me** section containing a brief description of me containing information about my background and what I am hoping to achieve. 
-    * This also contains a link to download my resume.
+* **About me** this section contains a brief description of me containing a portrait of myself and information about my background and what I am hoping to achieve. I hope this will aid any potential employers or collaborators to find out a little more about me.
+    * This also contains a link to download my resume which opens in a seperate screen in order to keep the users focus on the page itself. 
 
-* **Skills** section containing a selection of the skills I have learnt and am yet to study. These have interactive skill percentages which will be updated as I progress.
+* **Skills** section containing a selection of the skills I have learnt and am yet to study. These have interactive skill percentages which will be updated as I progress. Currently these have a hover effect over each percentage, this will updated as I progress through the course to incorporate animations to make this section more eye catching. This will enable anyone visiting the site to quickly and clearly identify my particular skillset.
 
 * **Portfolio** section which will eventually showcase my upcoming projects and work. At present I have added videos about coding, one of which is a video about Code Institute for anyone who is also looking to take a career change.
 
-* **Contact Me** section provides a form for anyone to get in touch, this will become interactive later in my course.   
+* **Contact Me** section provides a form for anyone to get in touch with me, this will become interactive later in my course.   
     * There are contact details such as phone/email/ address below this followed by google maps of the general area. 
 
 * **Social links** are available in the footer alongside another link to download my resume. 
