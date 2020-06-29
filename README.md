@@ -21,7 +21,7 @@ My page is hosted on GitHub pages and respository on GitHub.
 
 ![Am-I-Responsive-Image](READMEimages/amiresponsive.PNG)
 
-This project is aimed at future employers and colaborators. The resume itself showcases my skills so far and will document my progress as I learn more coding languages and expand my portfolio. 
+This project is aimed at future employers and colaborators. The resume itself showcases my skills so far in HTML and CSS and will document my progress as I learn more coding languages and expand my portfolio. 
 
 ## User Stories
 * An employer seeking a junior developer.
@@ -71,7 +71,7 @@ This project is aimed at future employers and colaborators. The resume itself sh
 
     * Hero Image of a desk containing the text "Full Stack Web Developer" to clearly show what this website is about and set the theme for the rest of the website.
 
-* **About me** this section contains a brief description of me containing a portrait of myself and information about my background and what I am hoping to achieve. I hope this will aid any potential employers or collaborators to find out a little more about me.
+* **About me** this section contains a brief description of me containing a portrait of myself, information about my background and what I am hoping to achieve. I hope this will aid any potential employers or collaborators to find out a little more about me.
     * This also contains a link to download my resume which opens in a seperate screen in order to keep the users focus on the page itself. 
 
 * **Skills** section containing a selection of the skills I have learnt and am yet to study. These have interactive skill percentages which will be updated as I progress. Currently these have a hover effect over each percentage, this will updated as I progress through the course to incorporate animations to make this section more eye catching. This will enable anyone visiting the site to quickly and clearly identify my particular skillset.
